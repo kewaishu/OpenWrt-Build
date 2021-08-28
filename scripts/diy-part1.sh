@@ -15,18 +15,18 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add feed sources
 sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
-#sed -i '$a src-git small8 https://github.com/kenzok8/small-package' feeds.conf.default
+sed -i '$a src-git small8 https://github.com/kenzok8/small-package' feeds.conf.default
 sed -i '$a src-git kenzok8 https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 #sed -i '$a src-git garypang13 https://github.com/garypang13/openwrt-packages' feeds.conf.default
 #sed -i '$a src-git jeii https://github.com/kenzok78/jeii' feeds.conf.default
 
 # Other Packages
-#git clone https://github.com/xiaorouji/openwrt-passwall.git package/lean/passwall
-#git clone https://github.com/kenzok8/litte.git package/lean/litte
+git clone https://github.com/xiaorouji/openwrt-passwall.git package/lean/passwall
+git clone https://github.com/kenzok8/litte.git package/lean/litte
 
 # Add Kenzok8's Packages & Dependency
-#git clone https://github.com/kenzok8/small.git
-#git clone https://github.com/kenzok8/openwrt-packages.git
+git clone https://github.com/kenzok8/small.git
+git clone https://github.com/kenzok8/openwrt-packages.git
 
 # Add Coolsnowwolf's Packages
 #git clone --depth=1 https://github.com/coolsnowwolf/lede/tree/master/package/lean
