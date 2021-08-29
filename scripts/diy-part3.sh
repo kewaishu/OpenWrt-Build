@@ -26,10 +26,10 @@ sed -i 's/192.168.1.1/192.168.66.1/g' package/base-files/files/bin/config_genera
 #git clone --depth=1 https://github.com/Lienol/openwrt-package
 
 # Add Kenzok8's Packages
-#git clone --depth=1 https://github.com/kenzok8/openwrt-packages
+git clone --depth=1 https://github.com/kenzok8/openwrt-packages
 
 # Add luci-app-passwall
-#git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall
+git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall
 
 # Add luci-app-vssr <M>
 #git clone --depth=1 https://github.com/jerrykuku/lua-maxminddb.git
